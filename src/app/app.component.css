@@ -1,0 +1,13 @@
+
+.card{
+    margin-top: 60px;
+    margin-left: 25%;
+    width: 40rem;
+}
+.card-header{
+    background-color: gray;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: antiquewhite;
+}

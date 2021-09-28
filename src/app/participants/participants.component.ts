@@ -1,15 +1,13 @@
-import { Component } from '@angular/core';
-import { ParticipantsService } from './participants/participants.service';
-
+import { Component, OnInit } from '@angular/core';
+import { ParticipantsService } from './participants.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'participants',
+  templateUrl: './participants.component.html',
+  styleUrls: ['./participants.component.css']
 })
-export class AppComponent {
-  title = 'List of Participants';
-
+export class ParticipantsComponent {
+  title = "List of Participants"
   participants;
   display;
 
